@@ -125,7 +125,7 @@ a {
 /* Landing Page */
 
 header {
-	background-image: url('../img/background_board.jpg');
+	background-image: url('../img/desk.jpg');
   background-size: cover;
 	height: 100vh;
 	color: #000000;
@@ -159,15 +159,25 @@ header h2 {
 }
 
 #mePic {
-    height: 85%;
-    width: 85%;
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+  padding-right: 50px;
 }
 
 #mePic2 {
-  height: 11%;
-  width: 11%;
+  height: 15%;
+  width: 14%;
   float: left;
   margin-left: 20px;
+  margin-top: 7px;
+
+}
+
+#top {
+  opacity: 0.8;
+filter: alpha(opacity=40); /* msie */
+background-color: #282828;
 }
 
 .center-link {
