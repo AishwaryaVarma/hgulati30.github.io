@@ -44,5 +44,4 @@ jQuery(document).ready(function($) {
     };
 
     myTheme.Isotope();
-
 });
